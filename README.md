@@ -1,5 +1,5 @@
 # OCTANET_OCTOBER
-WebD internship @octanet
+WebD internship at OctaNet.
 
 
 This is the first simple task of the octanet WebD internship ie creating a landing page of a website.
