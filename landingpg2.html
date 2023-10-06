@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAST45 FORM</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+<style>
+     body{
+        font-family: 'Prompt', sans-serif;
+        color:orange;
+        margin: 0px;
+        padding: 0px;
+        background:url('http://m.gettywallpapers.com/wp-content/uploads/2022/06/Wallpaper-Chris-Bumstead.jpg');
+    }
+    .mid{
+        display:block;
+        width: 40%;
+        margin: 2px auto;
+
+        /* border:2px solid white; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar ul{
+        background-color: aliceblue;
+    }
+    .navbar li{
+        display: inline-block;
+        list-style: none;
+        font-family: 'Prompt', sans-serif;
+
+        /* background-color:orange; */
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding:8px;
+        font-size: 15px;
+        list-style: none;
+    }
+    .navbar li a.active{
+        text-decoration:underline;
+        color: orange;
+    }
+    .navbar li a:hover{
+        color: lightsalmon;
+    }
+    .center{
+        /* border:2px solid red; */
+        /* display: block; */
+        /* margin: auto; */
+        /* width: 33%; */
+        text-align: center;
+        position:absolute;
+        top:325px;
+        left:12px;
+        width:600px;
+        height:400px
+        
+    }
+
+    .group{
+        padding: 12px;
+        margin: 12px;
+    }
+    .group input{
+        border:2px solid orange;
+        text-align: center;
+        border-radius: 7px;
+        background: none;
+
+    }
+    .placeholder{
+        color:orange;
+        font-family: 'Prompt', sans-serif;
+
+    }
+    #btn{
+        background: none;
+        color: aliceblue;
+        border:2px solid orange;
+        text-align: center;
+        border-radius: 7px;
+        background: none;
+    }
+    #btn:hover{
+        background-color: orange;
+        color:black;
+    }
+    .cright{
+        position: absolute;
+        right:10px;
+        top:200px;
+        /* border: 2px solid white; */
+        text-align: center;
+    }
+    .cright li{
+        list-style: none;
+        margin:9px;
+    }
+    #wp{
+        width:45px;
+        height:45px;
+        /* filter:grayscale(100%); */
+    }
+    #ig{
+        width:45px;
+        height:45px;
+        /* filter:grayscale(100%); */
+    }
+    #tw{
+        width:45px;
+        height:45px;
+        /* filter:grayscale(100%); */
+    }
+    #immg{
+        height: 166px;
+        width: 170px;
+        filter: invert(100%);
+    }
+    .left{
+        position:absolute;
+        left:12px;
+        top:4px;
+        /* border:2px solid red; */
+        display:inline-block;
+
+    }
+    .left{
+        /* background-color: blue; */
+        margin:0px;
+        text-align: center;
+        font-family: 'Prompt', sans-serif;
+        color: aliceblue;
+    }
+
+</style>
+<body>
+    <div class="center">
+        <h2>JOIN BEAST FITNESS NOW</h2>
+        <form action="noaction.php">
+            <div class="group">
+                <div>
+                    <input type="text" placeholder="NAME" >
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="AGE">
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="STATE">
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="MOBILE NUMBER">
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="HEIGHT">
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="WEIGHT">
+                </div>
+            </div>
+            <button id="btn">SUBMIT</button>
+
+        </form>
+        
+    </div>
+    <div class="cright">
+        <ul>
+            <li><a href="https://www.whatsapp.com/" target="_blank"><img id="wp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png"></a></li>
+            <li><a href="https://www.instagram.com/manishverma_45/" target="_blank"><img id="ig"src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png" alt=""></a></li>
+            <li><a href="https://twitter.com/c_bumstead?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img id="tw"src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Twitter_Logo.png" alt=""></a></li>
+        </ul>
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="http://" class="active">HOME</a></li>
+            <li><a href="http://">TRAINERS</a></li>
+            <li><a href="http://">CLASSES</a></li>
+            <li><a href="http://">BRANCHES</a></li>
+            <li><a href="http://">ABOUT US</a></li>
+         </ul>
+</div>
+<div class="left">
+    <img id="immg" src="https://png.pngtree.com/png-vector/20220518/ourmid/pngtree-steel-dumbbell-icon-outline-vector-png-image_4690771.png"  alt="error loading picture"  >
+    <br>
+    RAW FITNESS
+</div>
+</body>
+    
+</body>
+</html>

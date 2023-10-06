@@ -1,0 +1,143 @@
+body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background:url('http://m.gettywallpapers.com/wp-content/uploads/2022/06/Wallpaper-Chris-Bumstead.jpg');
+}
+.left{
+    position:absolute;
+    left:12px;
+    top:4px;
+    /* border:2px solid red; */
+    display:inline-block;
+
+}
+.right{
+    position: absolute;
+    right:12px;
+    top:4px;
+    /* border:2px solid yellow; */
+    display:inline-block;
+
+}
+.mid{
+    display:block;
+    width: 30%;
+    margin: 2px auto;
+
+    /* border:2px solid white; */
+}
+.left{
+    /* background-color: blue; */
+    margin:0px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+
+
+}
+#cleft{
+    color:blueviolet;
+    /* border: 2px solid yellow; */
+    display: inline;
+    position: absolute;
+    top:400px;
+    left:12px;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+#ccleft{
+    position: absolute;
+    top:530px;
+    left:12px;
+
+}
+#ccleft a{
+    text-decoration:underline;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+
+}
+#ccleft a:hover{
+    color: orange;
+    text-decoration: none;
+}
+#immg{
+    height: 166px;
+    width: 170px;
+    filter: invert(100%);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar ul{
+    background-color: aliceblue;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+
+    /* background-color:orange; */
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:8px;
+    font-size: 15px;
+    list-style: none;
+}
+.navbar li a.active{
+    text-decoration:underline;
+    color: orange;
+}
+.navbar li a:hover{
+    color: lightsalmon;
+}
+.btn{
+    font-family: 'Prompt', sans-serif;
+
+    background: none;
+    color: aliceblue;
+    margin: 1px 1px;
+    padding: 12px 12px;
+    /* border:2px solid orange; */
+    border-radius: 12px;
+    
+
+}
+.btn:hover{
+    /* background-color:; */
+    /* color: orange; */
+    background-color: orange;
+    color: black;
+    font-style: bold;
+    
+}
+.cright{
+    position: absolute;
+    right:12px;
+    top:200px;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+.cright li{
+    list-style: none;
+    margin:9px;
+}
+#wp{
+    width:45px;
+    height:45px;
+    /* filter:grayscale(100%); */
+}
+#ig{
+    width:45px;
+    height:45px;
+    /* filter:grayscale(100%); */
+}
+#tw{
+    width:45px;
+    height:45px;
+    /* filter:grayscale(100%); */
+}
