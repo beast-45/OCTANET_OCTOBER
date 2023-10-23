@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    background-image:url(https://c4.wallpaperflare.com/wallpaper/615/294/495/artwork-deer-antlers-forest-wallpaper-preview.jpg);
+    background-size: cover;
+    
+    text-align: center;
+}
+
+.container {
+    background-color:lightgrey;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
