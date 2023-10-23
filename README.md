@@ -2,8 +2,10 @@
 Hey , I am Manish Verma and this is my WebD internship at OctaNet.
 
 
-This is the first simple task of the octanet WebD internship ie creating a landing page of a website.
+The first task is crating a simple landing page of a website.
+I have crated the landing page of a gym website named RAW FITNESS.
 
-The landing page is of a gym website named RAW FITNESS.
+The second task is about creating a to do list website.
+I have created a simple to do list website.
 
 STAY TUNED.
